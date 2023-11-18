@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    width: 36rem;
+    border: 2px solid blueviolet;
+    padding: 4rem;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+input{
+    width: 100%;
+    height: 2rem;
+    padding: 5px;
+    border: 1px solid blueviolet;
+    margin-bottom: 1rem;
+}
+
+label{
+    font-size: 1.5rem;
+}
